@@ -44,4 +44,4 @@
 
 ### 🎉 运行截图
 
-![运行截图](https://github.com/hezhengliang/i18n-tool-script/docs/1679490904046.jpg）
+![运行截图](https://github.com/hezhengliang/i18n-tool-script/blob/master/docs/1679490904046.jpg）
