@@ -1,0 +1,49 @@
+
+# json合并Excel
+mergeJsonToExcelConf: 
+  preJsonPath: ../source/en.json
+  curJsonPath: ../source/zh-cn.json
+  outputPath: ../source/i18n-merge-data.xlsx
+  lang:
+    - zh-cn
+    - en
+
+# json转excel
+jsonToExcelConf: 
+  inputPath: ../source/zh-cn.json
+  outputPath: ../source/i18n-zh-cn.xlsx
+  lang: 
+    - en
+    - zh-tw
+
+# excel转json
+excelToJsonConf: 
+  inputPath: ../source/i18n-merge-data.xlsx
+  outputPath: ../source/excel-to-json.json
+  lang: en
+
+
+# json对比并生成excel
+# preJsonPath 老版本json文件
+# curJsonPath 当前版本json文件
+# outputPath 目前excel路径
+# lang 需要翻译的目标语言
+diffJsonConf:
+  preJsonPath: ../source/en.json
+  curJsonPath: ../source/zh-cn.json
+  outputPath: ../source/i18n-en-diff.xlsx
+  lang: 
+    - en
+
+# 读取翻译的excel，与老版本数据json对比生成最新国际化
+insertExcelToJsonConf: 
+  excelPath: ../source/i18n-merge-data.xlsx
+  jsonPath: ../source/en.json
+  outputPath: ../source/i18n-en-latest.json
+  lang: en
+
+# 国际化值定义枚举
+LANG_MAP: 
+  zh-cn: 0
+  en: 1
+  zh-tw: 2

@@ -1,0 +1,20 @@
+{
+  "layout": {
+    "home": "首页",
+    "table": "表格",
+    "button": "按钮",
+    "newKey": "新增1"
+  },
+  "page1": {
+    "page1Label": "测试1",
+    "page1Labe2": "测试2",
+    "page1Labe3": "测试3",
+    "newKey": "新增2"
+  },
+  "page2": {
+    "page1Label": "页面2-测试1",
+    "page1Labe2": "页面2-测试1",
+    "page1Labe3": "页面2-测试1",
+    "newKey": "页面2-测试1"
+  }
+}

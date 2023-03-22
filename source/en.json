@@ -1,0 +1,12 @@
+{
+  "layout": {
+    "home": "Hom",
+    "table": "Table",
+    "button": "Button"
+  },
+  "page1": {
+    "page1Label": "Test Page1",
+    "page1Labe2": "Test Page2",
+    "page1Labe3": "Test Page3"
+  }
+}
