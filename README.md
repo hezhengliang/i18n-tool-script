@@ -1,7 +1,7 @@
 <!--
  * @Date: 2022-05-31 14:24:35
  * @LastEditors: 93eryi@gmail.com
- * @LastEditTime: 2023-03-22 21:19:18
+ * @LastEditTime: 2023-03-22 21:23:18
  * @Description: 
 -->
 ### 国际化处理脚本工具
@@ -44,4 +44,4 @@
 
 ### 🎉 运行截图
 
-![运行截图](https://github.com/hezhengliang/i18n-tool-script/blob/master/docs/1679490904046.jpg）
+![运行截图](/docs/1679490904046.jpg)
